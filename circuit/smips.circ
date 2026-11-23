@@ -37,7 +37,9 @@
       <a name="type" val="output"/>
     </tool>
     <sep/>
-    <tool name="NOT Gate"/>
+    <tool name="NOT Gate">
+      <a name="facing" val="south"/>
+    </tool>
     <tool name="AND Gate"/>
     <tool name="OR Gate"/>
     <tool name="XOR Gate"/>
@@ -4783,7 +4785,7 @@
       <a name="label" val="BAD"/>
       <a name="type" val="output"/>
     </comp>
-    <comp lib="0" loc="(710,190)" name="Pin">
+    <comp lib="0" loc="(700,200)" name="Pin">
       <a name="appearance" val="NewPins"/>
       <a name="facing" val="west"/>
       <a name="label" val="OK"/>
@@ -4806,7 +4808,9 @@
     <comp lib="1" loc="(640,150)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(690,190)" name="NOT Gate"/>
+    <comp lib="1" loc="(650,190)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(690,240)" name="AND Gate">
       <a name="size" val="30"/>
     </comp>
@@ -4835,12 +4839,12 @@
     <wire from="(580,160)" to="(610,160)"/>
     <wire from="(640,150)" to="(650,150)"/>
     <wire from="(640,250)" to="(660,250)"/>
-    <wire from="(650,150)" to="(650,190)"/>
+    <wire from="(650,150)" to="(650,160)"/>
     <wire from="(650,150)" to="(660,150)"/>
-    <wire from="(650,190)" to="(650,230)"/>
-    <wire from="(650,190)" to="(660,190)"/>
+    <wire from="(650,190)" to="(650,200)"/>
+    <wire from="(650,200)" to="(650,230)"/>
+    <wire from="(650,200)" to="(700,200)"/>
     <wire from="(650,230)" to="(660,230)"/>
-    <wire from="(690,190)" to="(710,190)"/>
     <wire from="(690,240)" to="(720,240)"/>
   </circuit>
 </project>
